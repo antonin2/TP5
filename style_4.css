@@ -1,0 +1,82 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: separate;
+  border: 2px solid black;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td, th {
+  border: 1px solid gray;
+  padding: 10px 20px;
+}
+
+td {
+  text-align: center;
+}
+
+caption {
+        text-align: center;
+        font-weight: bold;
+        caption-side: top;
+}
+
+
+.jour-background {
+    background-color: #fbd206;
+}
+    
+.iw-background {
+    background-color: #ff6961;
+}
+
+.sf-background {
+    background-color: #ffb480;
+}
+
+.analyse-background {
+    background-color: #f8f38d;
+}
+
+.archi-background {
+    background-color: #42d6a4;
+}
+
+.bd-background {
+    background-color: #08cad1;
+}
+
+.repas-background {
+    background-color: #59adf6;
+}
+
+.anglais-background {
+    background-color: #9d94ff;
+}
+
+.sport-background {
+    background-color: #c780e8;
+}
+
+.algo-background {
+    background-color: green;
+}
+
+.hidden-content {
+        display: none;
+}
+
+td:hover .hidden-content {
+        display: block;
+}
+
+.ligne_a:hover {
+    background-color: #fbd206;
+}
+
+.ligne_b:hover {
+    background-color: #08cad1;
+}
